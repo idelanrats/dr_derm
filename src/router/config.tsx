@@ -1,5 +1,6 @@
 
-import { RouteObject } from 'react-router-dom';
+import { RouteObject } from 'react-router'; // <--- Import the type from react-router
+import { otherExports } from 'react-router-dom'; // <--- Keep DOM specific exports here
 import { lazy } from 'react';
 
 // Lazy load components
